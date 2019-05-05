@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Style sheet-->
+    <link rel="stylesheet" href="./style.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <a class="navbar-brand text-uppercase" href="#">open <span class="logo">Cinema</span></a>
+    
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto text-capitalize">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#"><i class="fas fa-film mx-2"></i>Cinema</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="fas fa-film mx-2"></i>films</a>
+                      </li>
+                      <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fab fa-blogger mx-2"></i>about</a>
+                      </li>
+                      <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-user mx-2"></i>register</a>
+                      </li>
+                      <li class="nav-item disabled">
+                            <a class="nav-link" href="#"><i class="fas fa-sign-out-alt mx-2"></i>login</a>
+                      </li>
+                  </div>
+    </nav>
+    <!--END OF NAVBAR-->
+    <!--HERO-->
+    <header>
+            <video class="video" playsinline="playsinline" muted="muted" loop="loop">
+              <source src="./Rain.mp4" type="video/mp4">
+            </video>
+            <div class="container h-100">
+              <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white">
+                  <h1 class="display-3">Welcome to Open Cinema</h1>
+                  <p class="lead mb-0">Open cinema is unique,every community, maivie and moment</p>
+                    <button type="button" class="btn btn-lg btn-primary my-4 text-capitalize">member registraion</button>
+                    <button type="button" class="btn btn-lg btn-primary my-4 text-capitalize">venue registraion</button>                    
+                    <i class=" play fas fa-play w-100 display-4 py-4" onclick="myFunction()"></i>
+                </div>
+              </div>
+            </div>
+          </header>
+    <!--END OF HERO-->
+    <!--ABOUT-->
+    <div class="container">
+            <div class="row text-center my-5">
+              <div class="col">
+                    <i class="fas fa-map-marker-alt display-4 py-4"></i>
+                    <hr>
+                    <h3 class="display-5">1.Register a Venue</h3>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime in excepturi tenetur!</p>
+                    <hr>
+            </div>
+              <div class="col">
+                    <i class=" play fas fa-video display-4 py-4"></i>
+                    <hr>
+                    <h3 class="display-5">2.Schedule an Event</h3>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime in excepturi tenetur!</p>
+                    <hr>                           
+              </div>
+              <div class="col">
+                    <i class=" play fas fa-film display-4 py-4"></i>
+                    <hr>
+                    <h3 class="display-5">3.Sell tickets</h3>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime in excepturi tenetur!</p>
+                    <hr>            
+              </div>
+            </div>
+    </div>
+    <!-- END OF ABOUT-->
+    <!-- FOOTER-->
+        <footer class="footer">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <i class=" play fas fa-film display-4 py-4"></i>
+                    <button class=" footer-btn btn btn-info">Follow us</button>
+                </div>
+                <div class="w-100">
+                    <p class="time">Sep 12 16:45</p>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo necessitatibus similique nihil explicabo aliquid.</p>
+                    <p class="time">Sep 12 16:45</p>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo necessitatibus similique nihil explicabo aliquid.</p>
+                </div>
+            </div>
+
+        </footer>
+    <!-- END OF FOOTER-->
+
+
+
+
+
+
+
+
+
+
+<!--App js-->
+<script src="./app.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
